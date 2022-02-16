@@ -69,6 +69,8 @@ pub fn click_image(
             image_settings.height,
             IMAGE_ROTATION,
             image_settings.rotation,
+            IMAGE_HORIZONTAL_FLIP,
+            IMAGE_VERTICAL_FLIP,
         ])
         .output()
 }
